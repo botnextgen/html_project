@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Travel Form</h1>
+      <form action="form.py"></form>
+      <input type="text" placeholder="Enter your Name" />
+
+      <label for="tick1">
+        <input type="radio" value="tick a" name="tick" id="tick1" /> Tick 1
+      </label>
+
+    <label for="tick2">
+        <input type="radio" value="tick b" name="tick" id="tick2" /> Tick 2 
+    </label
+      ><br /><br />
+      <!-- Helps to Get the TICK BOX feature with QUESTION -->
+      <label for="foodcanteen">Want Food Coupon </label>
+
+      <input type="checkbox" name="canteen" id="foodcanteen" class="red blue" />
+      <br /><br />
+
+      <textarea name="comment" id="comment" cols="50" rows="20" placeholder="Write your comments">
+      </textarea>
+      <select name="car" id="car">
+        select your car
+
+        <option value="no car">select your car</option>
+        <option value="omni1">omni1</option>
+        <option value="omni2">omni2</option>
+      </select>
+    </div>
+    <br />
+    <div class="form-example">
+      <input type="submit" value="Submit!" />
+    </div>
+  </body>
+</html>
